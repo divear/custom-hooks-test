@@ -1,8 +1,9 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
+import useLocalStorage from './useLocalStorage';
 
 function App(){
     
-  const [input,setInput] = useState('')
+  const [input,setInput] = useLocalStorage('name','')
 
   return(
   <div>
