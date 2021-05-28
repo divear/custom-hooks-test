@@ -3,7 +3,7 @@ import useLocalStorage from './useLocalStorage';
 
 function App(){
     
-  const [input,setInput] = useLocalStorage('name','')
+  const [input,setInput] = useLocalStorage('input','')
 
   return(
   <div>
